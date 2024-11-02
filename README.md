@@ -5,12 +5,12 @@
 A NestJS-based project template with secure JWT authentication, and database integration with Prisma ORM.
 
 ## Table of Contents
-    1. Getting Started
-    2. Project Structure
-    3. Authentication Flow
-    4. Protected Routes and Guards
-    5. Environment Setup
-    6. Deployment
+1. Getting Started
+2. Project Structure
+3. Authentication Flow
+4. Protected Routes and Guards
+5. Environment Setup
+6. Deployment
 
 ## Getting Started
 
