@@ -1,6 +1,6 @@
 # Nest.js Template
 
-*Author: Ege Okyay*
+*Author: [Ege Okyay](https://linkedin.com/in/ege-okyay)*
 
 A NestJS-based project template with secure JWT authentication, and database integration with Prisma ORM.
 
