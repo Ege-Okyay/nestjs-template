@@ -9,7 +9,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe({
     whitelist: true,
     forbidNonWhitelisted: true,
-    disableErrorMessages: (process.env.ENVIRONMENT === "development") ? false : true,
+    disableErrorMessages: (process.env.ENVIRONMENT === "prod") ? true : false,
   }));
   app.useGlobalFilters(new HttpExceptionFilter());
 
