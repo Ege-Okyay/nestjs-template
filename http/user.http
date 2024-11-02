@@ -1,0 +1,3 @@
+### Get User Profile Request
+GET ${{$dotenv API_URL}}/user/profile
+Authorization: Bearer <token_here>
