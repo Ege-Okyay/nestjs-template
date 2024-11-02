@@ -79,7 +79,7 @@ nest start --watch
   │   ├── user.controller.ts
   │   ├── user.module.ts
   │   └── user.service.ts
-  └── app.module.ts        # Application module
+  ├── app.module.ts        # Application module
   └── main.ts              # Application entry point
 ```
 
