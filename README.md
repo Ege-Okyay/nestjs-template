@@ -35,13 +35,8 @@ npm install
 ```
 
 3. Configure environment variables:
-    - Create a .env file in the root directory and set up the required environment variables.
-    - Example:
-    
-    ```env
-    DATABASE_URL=mongodb://localhost:27017/yourdbname
-    JWT_SECRET=<your_jwt_secret>
-    ```
+    - Duplicate the `.env_sample` file and rename it to `.env`
+    - Fill in the required values
 
 4. Run the application:
 
@@ -50,8 +45,6 @@ nest start --watch
 ```
 
 ## Project Structure
-
-The project structure follows best practices for NestJS applications:
 
 ```
 /prisma                     # Database Schema
@@ -103,8 +96,3 @@ The project structure follows best practices for NestJS applications:
 
 - Implement JWT guards to protect specific routes.
 - Example of a protected route to retrieve user profiles is included in the user module.
-
-## Environment Setup
-
-- Ensure MongoDB is running locally or specify a remote instance in the DATABASE_URL.
-- Set a secure JWT_SECRET for signing tokens.
