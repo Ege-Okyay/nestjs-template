@@ -65,10 +65,12 @@ nest start --watch
   │   └── strategies        # Passport Strategies
   │        └── jwt.strategy.ts
   ├── common                # Shared utilities and guards
+  │   ├── filters           # Exception Filters
+  │   │    └── http-exception.filter.ts
   │   ├── guards            # Authentication guards
-  │   └── utils             # Utility functions
-  │   └── filters           # Exception Filters
-  │       └── http-exception.filter.ts
+  │   │    └── signup.dto.ts
+  │   └── utils            # Utility functions
+  │        └── hash.util.ts
   ├── prisma                # Prisma integration
   │   └── prisma.service.ts
   ├── middlewares           # Middlewares
