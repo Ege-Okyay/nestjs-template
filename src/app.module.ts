@@ -1,5 +1,4 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { ConfigifyModule } from '@itgorillaz/configify';
 
 import { LoggingMiddleware } from './middlewares/logging.middleware';
 import { PrismaService } from './prisma/prisma.service';
@@ -8,7 +7,7 @@ import { UserController } from './user/user.controller';
 import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [ConfigifyModule, AuthModule, UserModule],
+  imports: [AuthModule, UserModule],
   providers: [PrismaService],
   controllers: [UserController],
 })
