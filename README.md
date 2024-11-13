@@ -38,7 +38,15 @@ npm install
     - Duplicate the `.env_sample` file and rename it to `.env`
     - Fill in the required values
 
-4. Run the application:
+4. Migrate database:
+
+```bash
+npx prisma generate
+npx prisma db push (if you use MongoDB)
+npx prisma migrate (if you use SQL)
+```
+
+5. Run the application:
 
 ```bash
 nest start --watch
