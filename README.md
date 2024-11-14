@@ -83,6 +83,8 @@ nest start --watch
   ├── middlewares           # Middlewares
   │   └── logging.middleware.ts
   ├── user                  # User module
+  │   ├── dto               # Data Transfer Objects
+  │   │    └── user-profile.dto.ts
   │   ├── user.controller.ts
   │   ├── user.module.ts
   │   └── user.service.ts
