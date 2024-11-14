@@ -2,7 +2,7 @@
 
 *Author: [Ege Okyay](https://linkedin.com/in/ege-okyay)*
 
-A NestJS-based project template with secure JWT authentication, and database integration with Prisma ORM.
+A NestJS-based project template with secure JWT authentication, documentation with Swagger, and database integration with Prisma ORM.
 
 ## Table of Contents
 1. Getting Started
@@ -10,7 +10,8 @@ A NestJS-based project template with secure JWT authentication, and database int
 3. Authentication Flow
 4. Protected Routes and Guards
 5. Environment Setup
-6. Deployment
+6. Documentation With Swagger
+7. Deployment
 
 ## Getting Started
 
@@ -106,3 +107,7 @@ nest start --watch
 
 - Implement JWT guards to protect specific routes.
 - Example of a protected route to retrieve user profiles is included in the user module.
+
+## Documentation With Swagger
+
+- Go to `/docs` to see the swagger documentation.
