@@ -9,9 +9,7 @@ A NestJS-based project template with secure JWT authentication, documentation wi
 2. Project Structure
 3. Authentication Flow
 4. Protected Routes and Guards
-5. Environment Setup
-6. Documentation With Swagger
-7. Deployment
+5. Documentation With Swagger
 
 ## Getting Started
 
