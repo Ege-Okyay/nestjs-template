@@ -8,8 +8,6 @@ import { UserModule } from './user/user.module';
 
 @Module({
   imports: [AuthModule, UserModule],
-  providers: [PrismaService],
-  controllers: [UserController],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
