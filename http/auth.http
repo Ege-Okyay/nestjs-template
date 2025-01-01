@@ -1,5 +1,5 @@
 ### Sign Up Request
-POST ${{$dotenv API_URL}}/auth/sign-up
+POST {{$dotenv API_URL}}/auth/sign-up
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ### Login Request
-POST ${{$dotenv API_URL}}/auth/login
+POST {{$dotenv API_URL}}/auth/login
 Content-Type: application/json
 
 {
